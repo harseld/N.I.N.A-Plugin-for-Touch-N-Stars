@@ -56,6 +56,7 @@ namespace TouchNStars.Server {
                 .WithController<BahtinovController>()    // Bahtinov mask analysis
                 .WithController<INDIController>()        // INDI driver management
                 .WithController<HocusFocusController>()  // HocusFocus plugin integration
+                .WithController<TppaOatController>()        // OAT / PolarAlignment plugin settings (tppa/oat/*)
                 .WithController<TPPAController>()        // TPPA / PolarAlignment plugin integration
                 .WithController<PinsController>()        // PINS device management
                 .WithController<SequenceController>()    // Sequence item discovery and management
